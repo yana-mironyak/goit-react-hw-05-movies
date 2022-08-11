@@ -1,0 +1,25 @@
+p {
+    margin: 0;
+}
+
+.reviews {
+    border-top: 1px solid rgb(208, 204, 204);
+}
+
+.list__item {
+    margin-bottom: 20px;
+}
+
+.list__title {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.list__text {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.reviews__error {
+    margin-top: 10px;
+}

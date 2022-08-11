@@ -1,0 +1,21 @@
+p {
+    margin: 0;
+}
+.cast {
+    border-top: 1px solid rgb(208, 204, 204);
+}
+
+.list__item {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.list__img {
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.list__text {
+    margin-top: 10px;
+    font-size: 15px;
+}

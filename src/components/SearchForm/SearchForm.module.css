@@ -1,0 +1,15 @@
+.searchForm {
+    display: flex;
+    padding-top: 10px;
+    border-radius: 2px;
+}
+
+.searchFormInput {
+    display: inline-block;
+    width: 400px;
+    border-color: rgb(186, 184, 184);
+    font-size: 18px;
+    outline-color: rgb(135, 135, 237);
+    padding-left: 4px;
+    padding-right: 4px;
+}

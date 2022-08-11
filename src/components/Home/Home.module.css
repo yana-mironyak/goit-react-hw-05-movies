@@ -1,0 +1,16 @@
+.main__list {
+    list-style: disc;
+}
+
+.list__item {
+    margin-bottom: 5px;    
+}
+
+.list__link {
+    text-decoration: none;
+    color: black;
+}
+
+.list__link:hover {
+    color: orange;
+}

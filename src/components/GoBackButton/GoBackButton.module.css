@@ -1,0 +1,11 @@
+.goBackBtn {
+    padding: 2px 5px;
+    border: 1px solid rgb(204, 202, 202);
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.goBackBtn:hover {
+    background-color: orange;
+}

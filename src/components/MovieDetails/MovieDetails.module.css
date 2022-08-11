@@ -1,0 +1,19 @@
+.container {
+    padding: 10px;
+}
+
+.movie {
+    margin-top: 5px;
+    display: flex;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.movie__img {
+    margin-right: 20px;
+}
+
+.movie__title {
+    font-weight: 700;
+    font-size: 18px;
+}
