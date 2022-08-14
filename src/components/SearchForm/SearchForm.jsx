@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import { Formik, Form, Field } from "formik";
 import css from '../SearchForm/SearchForm.module.css';
 
-const SearchForm = ({handleSubmit}) => {
+const SearchForm = ({handleSubmit, query}) => {
     return (
-        <Formik initialValues={{searchFilm: ''}} onSubmit={handleSubmit}>
+        <Formik initialValues={{searchFilm: query ?? ''}} onSubmit={handleSubmit}>
             <Form className={css.searchForm}>       
                 <Field
                     className={css.searchFormInput}

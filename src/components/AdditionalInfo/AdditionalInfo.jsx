@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Suspense } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import css from '../AdditionalInfo/AdditionalInfo.module.css';
 
@@ -11,7 +12,9 @@ const AdditionalInfo = ({backLinkHref}) => {
                     <li className={css.list__item}><Link className={css.list__link} to='cast' state={{from: backLinkHref}}>Cast</Link></li>
                     <li className={css.list__item}><Link className={css.list__link} to='reviews' state={{from: backLinkHref}}>Reviews</Link></li>
                 </ul>
-                <Outlet />
+                <Suspense>
+                    <Outlet />
+                </Suspense>
             </div>
             
         </div>
