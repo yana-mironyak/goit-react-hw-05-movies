@@ -24,4 +24,5 @@ export default SearchForm;
 
 SearchForm.propTypes = {
     handleSubmit: PropTypes.func.isRequired,
+    query: PropTypes.string.isRequired,
 }
